@@ -7,6 +7,7 @@
 )]
 
 mod blocker;
+mod context;
 mod event;
 pub mod external;
 pub mod files;
@@ -20,6 +21,7 @@ pub mod tasks;
 pub mod which;
 
 pub use blocker::*;
+pub use context::*;
 pub use event::*;
 pub use highlighter::*;
 pub use position::*;
